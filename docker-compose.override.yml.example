@@ -1,0 +1,11 @@
+# Example override file - copy to docker-compose.override.yml if you need custom settings
+# This file is automatically loaded by docker-compose if it exists
+version: '3.8'
+
+services:
+  backend:
+    environment:
+      - ADMIN_SECRET_KEY=KGF3
+      # Add other environment variables as needed
+
+
